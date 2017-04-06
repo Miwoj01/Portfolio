@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<title>Michał Flisikowski</title>
+	
+	<meta name="description" content="Portfolio programisty Michał Flisikowski" />
+	<meta name="keywords" content="portfolio, programista, na, zamowienie, html" />
+	<link href="style.css" type="text/css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+<body>
+	<div class="header"><a href>Michał Flisikowski</a></div>
+	<div class="nav">
+		<ul style="list-style-type:none;">
+			<li><a href>O mnie</a></li>
+			<li><a href>Projekty</a></li>
+			<li><a href>Oferta</a></li>
+			<li><a href>Kontakt</a></li>
+		</ul> 
+	</div>
+	<div class="content">
+		<p>Witam, jestem Michał sit amet, consectetur adipiscing elit. Morbi molestie velit nec sem hendrerit condimentum. Pellentesque dictum pellentesque est. Vestibulum eu tempus lacus. Integer quis justo ex. Mauris id arcu eu massa dapibus dictum et auctor nunc. Nunc auctor, lorem tincidunt pretium vehicula, tortor purus fermentum massa, a lobortis orci nibh semper elit. Fusce commodo condimentum nisl ac tristique. Nam euismod leo ac justo maximus varius. Aenean semper dolor metus, vel pellentesque tellus fermentum quis. Donec feugiat id metus tristique accumsan. Proin mollis at nunc id eleifend. Phasellus condimentum nunc sit amet turpis gravida, tempus ornare risus vestibulum. Etiam sit amet risus non metus tempor rutrum.</p>
+
+		<p>Ut vitae rhoncus dui, id sagittis lectus. Sed luctus vel erat a vulputate. Donec sollicitudin vel erat a egestas. Mauris viverra ipsum gravida, accumsan tortor id, congue lacus. Etiam suscipit ut felis ac sagittis. Sed euismod erat a nulla vestibulum sollicitudin. Suspendisse potenti. Phasellus nec ligula tincidunt, euismod erat vel, ornare metus. Phasellus eleifend suscipit cursus. Aenean placerat mauris ex, vel elementum velit tempus quis. Curabitur rhoncus nunc ut tempus gravida. Fusce aliquam, tortor id cursus tincidunt, nunc urna finibus tortor, ut viverra odio augue eu nulla. Cras efficitur eleifend odio, at tempor tellus lacinia a.</p>
+
+		<p>Quisque consequat libero aliquet placerat facilisis. Fusce suscipit tellus et dictum euismod. Donec fermentum ipsum diam, sed fringilla elit accumsan sed. In hac habitasse platea dictumst. Morbi ullamcorper lacus euismod, laoreet lectus ac, tempus ipsum. Phasellus et ornare augue. Mauris dolor sem, sollicitudin id neque convallis, rutrum viverra magna. Curabitur mollis dignissim est, id mollis ex molestie nec. Vestibulum luctus sed erat sit amet bibendum. Pellentesque faucibus nibh leo, a egestas mi laoreet sit amet. Mauris at volutpat diam. Sed pretium lectus ut ultricies sagittis. Phasellus sit amet turpis ligula. Nunc viverra purus augue, at fringilla nunc dapibus nec.</p>
+
+		<p>Donec vestibulum magna commodo augue dignissim, nec aliquet enim tristique. Integer mollis pretium massa, eget pellentesque elit consectetur non. Praesent molestie dolor a metus posuere, sed sodales massa semper. Morbi rhoncus sollicitudin lorem, eget tempus justo varius eget. Phasellus et elementum sem, in sagittis dolor. Phasellus mollis nisl sed metus accumsan, id vehicula libero consequat. Vestibulum venenatis sed nibh ac lobortis. Nam egestas libero nisi, a facilisis metus dignissim id. Maecenas efficitur non nisi eget bibendum. Aliquam erat volutpat. Cras non efficitur nibh. Phasellus fermentum tincidunt lectus, eu lacinia justo vestibulum eu.</p>
+
+		<p>Praesent aliquet efficitur augue, eget porta neque ornare vel. Pellentesque tristique dui a sollicitudin sollicitudin. Vivamus eget neque tellus. Nullam at magna accumsan, ultricies elit vitae, luctus erat. Mauris porttitor orci ligula, in varius massa accumsan sit amet. Praesent vel sagittis libero, in rutrum lacus. Mauris mi nulla, dapibus et faucibus cursus, mattis vitae justo. Sed quis ultrices lectus.</p>
+	</div>
+	<div class="footer">
+		<div class="socials">
+		
+		</div>
+	&copy All rights are reserved 2017. Michał Flisikowski.
+	</div>
+	
+	<script src="jquery-1.11.3.min.js"></script>
+	
+			<script>
+
+				$(document).ready(function() {
+				var NavY = $('.nav').offset().top;
+				 
+				var stickyNav = function(){
+				var ScrollY = $(window).scrollTop();
+					  
+				if (ScrollY > NavY) { 
+					$('.nav').addClass('sticky');
+				} else {
+					$('.nav').removeClass('sticky'); 
+				}
+				};
+				 
+				stickyNav();
+				 
+				$(window).scroll(function() {
+					stickyNav();
+				});
+				});
+				
+			</script>
+</body>
+</html>
