@@ -95,40 +95,45 @@ ul > li:hover > a
 .socialdivs
 {
 	text-align:center;
-	width:420px;
+	width:480px;
 	margin-left:auto;
 	margin-right:auto;
+	min-width:420px;
 }
 
 .socials
 {
 	width:100%;
 	background-color:black;
-	color:#E0E0E0;
 	text-align:center;
 }
 
-.fb
+.socialtile
 {
 	float:left;
-	width:120px;
+	width:140px;
 	height:120px;
 	padding:10px;
-	border-bottom:1px solid #E0E0E0;
+	display:block;
+	border-bottom:2px solid black;
+	color:#E0E0E0;
+	font-size:55px;
+	margin-top:60px;
 }
 
-.git
+.socialtile:hover
 {
-	float:left;
-	width:120px;
-	height:120px;
-	padding:10px;
+	color:white;
+	border-bottom-color:white;
 }
 
-.gplus
+.socialtile a:hover
 {
-  	float:left;
-	width:120px;
-	height:120px;
-	padding:10px;
+	color:white;
+}
+
+.socialdivs a 
+{
+	text-decoration:none;
+	color:#E0E0E0;
 }

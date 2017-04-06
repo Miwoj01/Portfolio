@@ -10,10 +10,11 @@
 	<meta name="keywords" content="portfolio, programista, na, zamowienie, html" />
 	<link href="style.css" type="text/css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="css/fontello.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
-	<div class="header"><a href="#" target="_blank">Michał Flisikowski</a></div>
+	<div class="header"><a href="#" >Michał Flisikowski</a></div>
 	<div class="nav">
 		<ul style="list-style-type:none;">
 			<li><a href="#">O mnie</a></li>
@@ -37,29 +38,30 @@
 	
 	<div class="socials">
 	<div class="socialdivs">
-		<div class="fb"><a href="http://www.facebook.com" target="_blank"><i class="icon-facebook"></i></a></div>
-		<div class="git">git</div>
-		<div class="gplus">gplus</div>
+		<div class="socialtile"><a href="http://www.facebook.com" target="_blank"><i class="icon-facebook"></i></a></div>
+		<div class="socialtile"><a href="http://www.github.com/Miwoj01" target="_blank"><i class="icon-github-circled-alt2"></i></a></div>
+		<div class="socialtile"><a href="http://www.plus.google.com" target="_blank"><i class="icon-gplus"></i></a></div>
 		<div style="clear:both;"></div>
-	</div>	
 	</div>
-		
+	</div>
+	
+	
 	
 	<script src="jquery-1.11.3.min.js"></script>
 	
-			<script>
+	<script>
 
-				$(document).ready(function() {
-				var NavY = $('.nav').offset().top;
-				 
-				var stickyNav = function(){
+		$(document).ready(function() {
+			var NavY = $('.nav').offset().top;
+		 
+			var stickyNav = function(){
 				var ScrollY = $(window).scrollTop();
-					  
+		  
 				if (ScrollY > NavY) { 
 					$('.nav').addClass('sticky');
-				} else {
-					$('.nav').removeClass('sticky'); 
-				}
+					} else {
+						$('.nav').removeClass('sticky'); 
+					}
 				};
 				 
 				stickyNav();
@@ -67,8 +69,8 @@
 				$(window).scroll(function() {
 					stickyNav();
 				});
-				});
+			});
 				
-			</script>
+	</script>
 </body>
 </html>
