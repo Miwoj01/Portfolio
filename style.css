@@ -95,7 +95,7 @@ ul > li:hover > a
 .socialdivs
 {
 	text-align:center;
-	width:700px;
+	width:420px;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -111,16 +111,16 @@ ul > li:hover > a
 .fb
 {
 	float:left;
-	width:100xp;
+	width:120px;
 	height:120px;
 	padding:10px;
-
+	border-bottom:1px solid #E0E0E0;
 }
 
 .git
 {
 	float:left;
-	width:100xp;
+	width:120px;
 	height:120px;
 	padding:10px;
 }
@@ -128,7 +128,7 @@ ul > li:hover > a
 .gplus
 {
   	float:left;
-	width:100xp;
+	width:120px;
 	height:120px;
 	padding:10px;
 }
