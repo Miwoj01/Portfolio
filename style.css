@@ -83,17 +83,6 @@ ul > li:hover > a
 	
 }
 
-.footer
-{
-	text-align:center;
-	background-color:black;
-	color:#E0E0E0;
-	font-size:17px;
-	height:60px;
-	padding:10px 0;
-	width:100%;
-}
-
 .sticky
 {
 	width:100%;
@@ -101,4 +90,45 @@ ul > li:hover > a
 	left:0;
 	top:0;
 	z-index:100;
+}
+
+.socialdivs
+{
+	text-align:center;
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.socials
+{
+	width:100%;
+	background-color:black;
+	color:#E0E0E0;
+	text-align:center;
+}
+
+.fb
+{
+	float:left;
+	width:100xp;
+	height:120px;
+	padding:10px;
+
+}
+
+.git
+{
+	float:left;
+	width:100xp;
+	height:120px;
+	padding:10px;
+}
+
+.gplus
+{
+  	float:left;
+	width:100xp;
+	height:120px;
+	padding:10px;
 }

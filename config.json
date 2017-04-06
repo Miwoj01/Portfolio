@@ -19,16 +19,10 @@
       "src": "mfglabs"
     },
     {
-      "uid": "b1ec8e90c2c85cf0035849980a3789b3",
-      "css": "twitter",
-      "code": 59392,
-      "src": "zocial"
-    },
-    {
-      "uid": "785a9b232e86ae750516adc5228a5aa7",
-      "css": "steam",
-      "code": 59393,
-      "src": "zocial"
+      "uid": "8669af50382b53c48b9b803692828dd0",
+      "css": "github-circled-alt2",
+      "code": 61526,
+      "src": "mfglabs"
     }
   ]
 }
