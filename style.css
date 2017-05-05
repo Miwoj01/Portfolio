@@ -7,7 +7,7 @@ body
 	width:100%;
 }
 
-.header
+header
 {
 	text-align:center;
 	background-color:black;
@@ -15,12 +15,11 @@ body
 	padding:10px 0;
 	letter-spacing:1px;
 	border-bottom:1px solid #E0E0E0;
-	color:#E0E0E0;
 	width:100%;
 	
 }
 
-.nav
+nav
 {
 	background-color:black;
 	text-align:center;
@@ -34,49 +33,52 @@ body
 }
 
 
-ul > li 
+ul li 
 {
-	float:left;
+	display:inline-block;
 	width:150px;
 }
 
 ul 
 {
-	display:inline-block;
+	
 	padding:0px;
 	margin:0px;
 	line-height:200%;
 }
 
-ul a 
+ul a,.socialtile a 
 {
 	text-decoration:none;
 	color:#E0E0E0;
 	display:block;
 }
 
-.header a:hover
+header a:hover,li a:hover
 {
 	color:white;
 }
 
-ul > li:hover > a 
-{
+ .socialtile a:hover
+ {
 	color:white;
+	border-bottom:3px solid white;
+ }
 
-}
 
 .content
 {
-	width:1200px;
+	width:1000px;
 	font-size:30px;
 	margin-left:auto;
 	margin-right:auto;
 	text-align:justify;
+	
+	min-height:100%;
 
 }
 
-.header a
+header a,footer a
 {
 	decoration:none;
 	color:#E0E0E0;
@@ -92,48 +94,28 @@ ul > li:hover > a
 	z-index:100;
 }
 
-.socialdivs
-{
-	text-align:center;
-	width:480px;
-	margin-left:auto;
-	margin-right:auto;
-	min-width:420px;
-}
-
-.socials
+footer
 {
 	width:100%;
 	background-color:black;
+	color:#E0E0E0;
+	height:200px;
 	text-align:center;
 }
 
 .socialtile
 {
-	float:left;
-	width:140px;
-	height:120px;
-	padding:10px;
-	display:block;
-	border-bottom:2px solid black;
-	color:#E0E0E0;
-	font-size:55px;
-	margin-top:60px;
+	display:inline-block;
+	height:100%;
+	width:150px;
+	font-size:70px;
+	margin-top;20px;
+	line-height:250%;
+	margin:0 20px;
 }
 
-.socialtile:hover
-{
-	color:white;
-	border-bottom-color:white;
-}
+ .socialtile a
+ {
+	height:197px;
 
-.socialtile a:hover
-{
-	color:white;
-}
-
-.socialdivs a 
-{
-	text-decoration:none;
-	color:#E0E0E0;
-}
+ }
