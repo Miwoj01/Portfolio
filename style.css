@@ -7,7 +7,7 @@ body
 	width:100%;
 }
 
-.header
+header
 {
 	text-align:center;
 	background-color:black;
@@ -15,12 +15,23 @@ body
 	padding:10px 0;
 	letter-spacing:1px;
 	border-bottom:1px solid #E0E0E0;
-	color:#E0E0E0;
-	width:100%;
-	
+	width:100%;	
 }
 
-.nav
+
+header a
+{
+	color:#E0E0E0;	
+}
+
+
+header a:hover,li a:hover
+{
+	color:white;
+}
+
+
+nav
 {
 	background-color:black;
 	text-align:center;
@@ -34,54 +45,48 @@ body
 }
 
 
-ul > li 
+ul li 
 {
-	float:left;
+	display:inline-block;
 	width:150px;
 }
 
+
 ul 
 {
-	display:inline-block;
 	padding:0px;
 	margin:0px;
 	line-height:200%;
 }
 
-ul a 
+
+ul a,.socialtile a ,.tile a
 {
 	text-decoration:none;
 	color:#E0E0E0;
 	display:block;
 }
 
-.header a:hover
+
+.socialtile a:hover
 {
 	color:white;
+	border-bottom:3px solid white;
 }
 
-ul > li:hover > a 
-{
-	color:white;
-
-}
 
 .content
 {
-	width:1200px;
+	width:1000px;
 	font-size:30px;
 	margin-left:auto;
 	margin-right:auto;
 	text-align:justify;
+	min-height:100%;
+    padding:0 10px 30px 10px;
 
 }
 
-.header a
-{
-	decoration:none;
-	color:#E0E0E0;
-	
-}
 
 .sticky
 {
@@ -92,48 +97,64 @@ ul > li:hover > a
 	z-index:100;
 }
 
-.socialdivs
-{
-	text-align:center;
-	width:480px;
-	margin-left:auto;
-	margin-right:auto;
-	min-width:420px;
-}
 
-.socials
+footer
 {
 	width:100%;
 	background-color:black;
+	color:#E0E0E0;
+	height:200px;
 	text-align:center;
 }
 
+
 .socialtile
 {
-	float:left;
-	width:140px;
-	height:120px;
-	padding:10px;
-	display:block;
-	border-bottom:2px solid black;
-	color:#E0E0E0;
+	display:inline-block;
+	height:100%;
+	width:155px;
 	font-size:55px;
-	margin-top:60px;
+	margin-top;20px;
+	line-height:350%;
 }
 
-.socialtile:hover
+   
+.active
 {
-	color:white;
-	border-bottom-color:white;
+    text-decoration: underline;  
 }
 
-.socialtile a:hover
+
+body#contact
 {
-	color:white;
+    background-color: black; 
 }
 
-.socialdivs a 
+
+.container
 {
-	text-decoration:none;
-	color:#E0E0E0;
+  
+    margin: 100px auto 0 auto;
+    width: 900px;
+}
+
+
+.tile
+{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    line-height:334%;
+    font-size: 90px;
+    color: #E0E0E0;
+    
+}
+
+
+.tile a:hover
+{
+    color: black;
+    border-radius: 5px;
+    background-color: #E0E0E0
 }
