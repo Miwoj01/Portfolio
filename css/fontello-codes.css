@@ -1,4 +1,7 @@
 
-.icon-facebook:before { content: '\f052'; } /* '' */
+.icon-phone:before { content: '\e800'; } /* '' */
+.icon-mail:before { content: '\e801'; } /* '' */
+.icon-facebook-1:before { content: '\f052'; } /* '' */
 .icon-github-circled-alt2:before { content: '\f056'; } /* '' */
+.icon-twitter:before { content: '\f058'; } /* '' */
 .icon-gplus:before { content: '\f05a'; } /* '' */
