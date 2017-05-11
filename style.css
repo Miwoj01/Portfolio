@@ -72,6 +72,7 @@ ul a,.socialtile a ,.tile a
 {
 	color:white;
 	border-bottom:3px solid white;
+ 
 }
 
 
@@ -147,8 +148,7 @@ body#contact
     text-align: center;
     line-height:334%;
     font-size: 90px;
-    color: #E0E0E0;
-    
+    color: #E0E0E0;   
 }
 
 
@@ -157,5 +157,5 @@ body#contact
     color: black;
     border-radius: 5px;
     background-color: #E0E0E0;
-    
+    cursor: pointer;
 }
